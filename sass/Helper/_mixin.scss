@@ -1,0 +1,25 @@
+@mixin styleText ($fs, $fw, $color) {
+  font-size: $fs;
+  font-weight: $fw;
+  color: $color;
+}
+
+// For padding
+@mixin stylePadding4Dims ($pt,$pr,$pb,$pl) {
+  padding: $pt $pr $pb $pl;
+}
+
+// For button
+@mixin styleButton ($bg, $bd, $radius, $pd-x, $pd-y) {
+  background: $bg;
+  border: $bd;
+  border-radius: $radius;
+  padding: $pd-y $pd-x;
+}
+
+//  hover button
+@mixin styleButtonHover ($bg-hover, $border-hover, $bd, $color-hover) {
+  background: $bg-hover;
+  border: $border-hover;
+  box-shadow: 0 0 0 $bd $color-hover inset;
+}
