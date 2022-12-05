@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #181818;
+  line-height: 1.8em;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1260px;
+}
+
+.btn-contact {
+  background: #b61984;
+  border: none;
+  border-radius: 50px;
+  padding: 1.1em 1.5em;
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+  transition: all 1s ease;
+}
+.btn-contact i {
+  padding-right: 0.5em;
+}
+.btn-contact:hover {
+  background: #ffffff;
+  border: 1px;
+  box-shadow: 0 0 0 1px #b61984 inset;
+  font-size: 13px;
+  font-weight: 500;
+  color: #b61984;
+}
+
+header {
+  background: transparent;
+}
+header .navbar .nav-item {
+  padding: 0 50px 0 0;
+}
+header .navbar .nav-item .nav-link {
+  font-size: 13px;
+  font-weight: 600;
+  color: #181818;
+  --bs-navbar-nav-link-padding-x: 0;
+}
+header .navbar .nav-item .nav-link:hover {
+  font-size: 13px;
+  font-weight: 600;
+  color: #b61984;
+}
+header .navbar .socialIcon {
+  margin-left: 1em;
+  font-size: 13px;
+  font-weight: 500;
+  color: #181818;
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */

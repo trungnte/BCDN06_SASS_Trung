@@ -1,0 +1,31 @@
+header {
+  background: transparent;
+
+  // Menu text
+  .navbar {
+    .nav-item {
+      .nav-link {
+        @include styleText($fs-2, $fw-5, $color-black-2);
+        
+        // NOT hover YET
+        // hover
+        &:hover {
+          @include styleText($fs-2, $fw-5, $color-pink-1);
+        }
+
+        // TODO: --bs-navbar-nav-link-padding-x: 0rem
+        --bs-navbar-nav-link-padding-x: 0;
+      }
+
+      // padding
+      @include stylePadding4Dims(0, $pd-1, 0, 0);
+    }
+
+    .socialIcon {
+      margin-left: $ml-1;
+      @include styleText($fs-2, $fw-4, $color-black-2);
+      text-decoration: none;
+    }
+  
+  }
+}
