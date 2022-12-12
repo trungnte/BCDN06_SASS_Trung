@@ -1,0 +1,7 @@
+footer {
+  .socialIcon {
+    margin-left: $mg-1;
+    @include styleText($fs-2, $fw-4, $color-black-2);
+    text-decoration: none;
+  }
+}
