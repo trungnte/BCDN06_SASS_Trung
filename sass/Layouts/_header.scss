@@ -1,8 +1,21 @@
 header {
-  background: transparent;
+  // background: transparent;
+  // background-image: url(../../img/yellow_top_wave_01.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+
+  .container {
+    margin-top: 0;
+    padding-top: 0;
+  }
 
   // Menu text
   .navbar {
+    margin-top: 0;
+    padding-top: 0;
     .nav-item {
       .nav-link {
         @include styleText($fs-2, $fw-5, $color-black-2);
@@ -20,12 +33,11 @@ header {
       // padding
       @include stylePadding4Dims(0, $pd-1, 0, 0);
     }
-
-    .socialIcon {
-      margin-left: $ml-1;
-      @include styleText($fs-2, $fw-4, $color-black-2);
-      text-decoration: none;
-    }
-  
   }
+
+  .socialIcon {
+    @include styleText($fs-2, $fw-4, $color-black-2);
+    text-decoration: none;
+  }
+
 }

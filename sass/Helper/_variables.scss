@@ -12,6 +12,9 @@ $color-black-2: #181818;
 $fs-1: 15px;
 $fs-2: 13px;
 $fs-3: 0.9rem;
+$fs-4: 1.1rem;
+$fs-5: 3.8rem;
+
 
 
 // font weight
@@ -29,6 +32,7 @@ $lh-1: 1.8em;
 $lh-2: 48px;
 $lh-3: 80px;
 $lh-4: 1;
+$lh-5: 1.2;
 
 // padding
 $pd-1: 50px;
@@ -38,13 +42,24 @@ $pd-4: 30px;
 $pd-5: 0.5em;
 
 // margin
-$ml-1: 1em;
+$mg-1: 0.7em;
+$mg-2: 0.5em;
+$mg-3: 10em;
 
 // radius
 $rad-1: 50px;
 
 // border
 $bd-1: 1px;
+
+//  for image
+$bg-size-1: cover;
+
+$bg-repeat-1: no-repeat;
+
+$bg-pos-1: top;
+$bg-pos-2: center;
+
 
 // max-width
 $max-width-1: 1260px;

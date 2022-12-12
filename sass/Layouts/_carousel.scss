@@ -1,0 +1,45 @@
+.tabula__carousel {
+  .carousel__contentHolder{
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    
+    
+    .carousel_top {
+      img{
+        @include styleCarouselImage($bg-size-1, $bg-repeat-1, $bg-pos-1);
+      }
+    }
+
+    .carousel__left{
+      .carousel__header {
+        @include styleText($fs-4, $fw-5, $color-pink-1);
+      }
+  
+      .carousel__content {
+        line-height: $lh-5;
+        @include styleText($fs-5, $fw-6, $color-black-2);
+      }
+  
+    }
+
+    .tabula__carouselContainer {
+      // position: absolute;
+      // top: 60px;
+      // left: 0;
+
+      .tabula__carouselBody {
+        position: absolute;
+        top: 60px;
+      }
+    }
+
+    .carousel_bottom {
+      img{
+        @include styleCarouselImage($bg-size-1, $bg-repeat-1, $bg-pos-1);
+      }
+      // position: absolute;
+    
+    }
+  }
+}

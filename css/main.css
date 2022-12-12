@@ -40,7 +40,19 @@ html, body {
 }
 
 header {
-  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+}
+header .container {
+  margin-top: 0;
+  padding-top: 0;
+}
+header .navbar {
+  margin-top: 0;
+  padding-top: 0;
 }
 header .navbar .nav-item {
   padding: 0 50px 0 0;
@@ -56,8 +68,46 @@ header .navbar .nav-item .nav-link:hover {
   font-weight: 600;
   color: #b61984;
 }
-header .navbar .socialIcon {
-  margin-left: 1em;
+header .socialIcon {
+  font-size: 13px;
+  font-weight: 500;
+  color: #181818;
+  text-decoration: none;
+}
+
+.tabula__carousel .carousel__contentHolder {
+  width: auto;
+  background-size: cover;
+  background-position: center;
+}
+.tabula__carousel .carousel__contentHolder .carousel_top img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.tabula__carousel .carousel__contentHolder .carousel__left .carousel__header {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #b61984;
+}
+.tabula__carousel .carousel__contentHolder .carousel__left .carousel__content {
+  line-height: 1.2;
+  font-size: 3.8rem;
+  font-weight: 700;
+  color: #181818;
+}
+.tabula__carousel .carousel__contentHolder .tabula__carouselContainer .tabula__carouselBody {
+  position: absolute;
+  top: 60px;
+}
+.tabula__carousel .carousel__contentHolder .carousel_bottom img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+footer .socialIcon {
+  margin-left: 0.7em;
   font-size: 13px;
   font-weight: 500;
   color: #181818;
